@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.henry2man.dailyselfie.MainActivity" >
+
+    <item
+        android:id="@+id/take_selfie"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/take_selfie"/>
+
+</menu>

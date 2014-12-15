@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DailySelfie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="take_selfie">Let\'s take a Selfie!</string>
+    <string name="take_selfie_long">It\'s time to take a new Selfie. Click here and here we go!</string>
+    <string name="selfies_file_key">com.henry2man.dailyselfie.SELFIES_DAT</string>
+    <string name="title_activity_view_selfie">ViewSelfieActivity</string>
+	<string name="selfie_taked_on">This selfie was taken on</string>
+	<string name="selfie_path">Path</string>
+	<string name="selfie_maybe_deleted"><b>Ooops! I cannot found this selfie. It may have been deleted :_(</b></string>
+	<string name="alarm_start">DailySelfie: the notification to take another selfie will apear on </string>
+	<string name="alarm_cancel">DailySelfie: the notification alarm was cancelled</string>
+	<string name="minutes">minutes</string>
+</resources>

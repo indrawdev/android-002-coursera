@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CourseraWeek8AssignmentSelfi</string>
+    <string name="image">Click Image</string>
+    <string name="click_for_selfi">Click to take a Selfi</string>
+    <string name="delete_all_selfi">Delete all Selfis</string>
+    <string name="selfi_album_name">SlefiAlbum</string>
+
+    <string name="selfi_notification_ticker_text">Selfi Time</string>
+    <string name="selfi_notification_title">Reminder to tak a selfi</string>
+    <string name="selfi_notification_text">Selfi</string>
+</resources>

@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" 
+    android:baselineAligned="false"
+    android:background="@color/black" >
+
+	<LinearLayout
+	    android:baselineAligned="false"
+	    android:orientation="horizontal" 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:padding="2dp">
+	    
+			    <LinearLayout 
+		       android:layout_weight="1"
+		       android:layout_height="match_parent"
+		       android:layout_width="0dp"
+		       android:orientation="vertical">
+		        
+		        <View
+		            android:id="@+id/leftUp"
+		            android:layout_width="match_parent"
+		            android:layout_height="0dp"
+		            android:layout_weight="1"
+		            android:background="@color/red">
+		            
+		        </View>
+		        
+		        <View
+		  	      	android:id="@+id/leftDown"
+		   	    	android:layout_width="match_parent"
+		   	    	android:layout_height="0dp"
+		            android:layout_weight="1"
+		        	android:background="@color/purple">
+		       	</View>
+		            
+		    </LinearLayout>
+    
+		    <LinearLayout 
+		       android:layout_weight="1"
+		       android:layout_height="match_parent"
+		       android:layout_width="0dp"
+		       android:orientation="vertical"
+		       android:padding="2dp">        
+		       
+		        
+		        <View
+		            android:id="@+id/rightUp"
+		            android:layout_width="match_parent"
+		            android:layout_height="0dp"
+		            android:layout_weight="1"
+		            android:background="@color/yellow"
+   		            android:padding="2dp">
+		        </View>
+		        
+		        <View
+		  	      	android:id="@+id/rightMiddle"
+		   	    	android:layout_width="match_parent"
+		   	    	android:layout_height="0dp"
+		            android:layout_weight="1"
+		        	android:background="@color/green"
+		        	android:padding="2dp">
+		        	
+		       	</View>
+		        	
+		      	 <View
+		      	     android:id="@+id/rightDown"
+		      	     android:layout_width="match_parent"
+		      	     android:layout_height="0dp"
+		      	     android:layout_weight="1"
+		      	     android:background="@color/white"
+		      	     android:padding="2dp" >
+
+		     	</View>
+		        
+		    </LinearLayout>
+	    
+	</LinearLayout>
+    
+    
+    <RelativeLayout
+        android:gravity="bottom" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+	    <SeekBar 
+	        android:id="@+id/seekBar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

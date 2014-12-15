@@ -1,0 +1,5 @@
+10-12 00:55:20.043: I/Lab-ActivityTwo(7411): Entered the onCreate() method
+10-12 00:55:20.043: I/Lab-ActivityTwo(7411): Entered the onStart() method
+10-12 00:55:20.043: I/Lab-ActivityTwo(7411): Entered the onResume() method
+10-12 00:55:24.057: I/Lab-ActivityTwo(7411): Entered the onPause() method
+10-12 00:55:24.067: I/Lab-ActivityTwo(7411): Entered the onStop() method

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Modern Art UI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">More information</string>
+    <string name="alert_btn_no">Not Now</string>
+    <string name="alert_btn_yes">Visit MOMA</string>
+
+</resources>

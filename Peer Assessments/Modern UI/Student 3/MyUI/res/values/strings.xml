@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyUI</string>
+    <string name="title">Modern Art UI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">more information</string>
+    <string name="dialogtext1">Inspired by the work of artists</string>
+    <string name="dialogtext2">Click below to learn more!</string>
+    <string name="dialogtext3">Visit MOMA</string>
+    <string name="dialogtext4">Not Now</string>
+
+</resources>

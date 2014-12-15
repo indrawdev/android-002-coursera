@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:dailyselfie="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/action_takePic"
+          android:icon="@drawable/ic_action_camera"
+          android:title="@string/action_takePic"
+          dailyselfie:showAsAction="ifRoom"  />
+    <item android:id="@+id/action_deletePics"
+          android:icon="@drawable/ic_action_discard"
+          android:title="@string/action_deletePics"
+          dailyselfie:showAsAction="ifRoom"  />
+    <!-- Items that should always be in the overflow -->
+    <item android:id="@+id/action_killAlarm"
+          android:title="@string/action_killAlarm"
+          android:showAsAction="never" />
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Outermost  LinearLayout with vertical orientation -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal" >
+
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="vertical" >
+	
+	        <!-- TextView with layout weight of 1 out of 2 -->
+	
+	        <TextView
+	            android:id="@+id/textview1_1"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_margin="2dp"
+	            android:layout_weight="1"
+	            android:background="@color/bisque"
+	            android:gravity="center_horizontal"
+	            android:textSize="24sp" />
+	        
+	        <TextView
+	            android:id="@+id/textview1_2"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_margin="2dp"
+	            android:layout_weight="1"
+	            android:background="@color/goldenrod"
+	            android:gravity="center_horizontal"
+	            android:textSize="24sp" />
+	       
+	    </LinearLayout>
+	
+	
+	    <LinearLayout
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:orientation="vertical" >
+	
+	        <!-- TextView with layout weight of 1 out of 3 -->
+	
+	        <TextView
+	            android:id="@+id/textview2_1"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_margin="2dp"
+	            android:layout_weight="1"
+	            android:background="@color/thistle"
+	            android:gravity="center_horizontal"
+	            android:textSize="24sp" />
+	
+	        <TextView
+	            android:id="@+id/textview2_2"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_margin="2dp"
+	            android:layout_weight="1"
+	            android:background="@color/grey"
+	            android:gravity="center_horizontal"
+	            android:textSize="24sp" />
+	
+	        <TextView
+	            android:id="@+id/textview2_3"
+	            android:layout_width="match_parent"
+	            android:layout_height="0dp"
+	            android:layout_margin="2dp"
+	            android:layout_weight="1"
+	            android:background="@color/dodgerblue"
+	            android:gravity="center_horizontal"
+	            android:textSize="24sp" />
+	        
+	    </LinearLayout>
+	
+	</LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+ 
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DailySelfie</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_camera">Camera</string>
+    <string name="title_activity_picture">PictureActivity</string>
+
+    <string name="action_set_alarm">Set Alarm</string>
+    <string name="action_erase_alarm">Erase Alarm</string>
+    <string name="action_delete">Delete</string>
+</resources>
